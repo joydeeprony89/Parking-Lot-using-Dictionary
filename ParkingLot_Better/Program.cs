@@ -13,6 +13,7 @@ namespace ParkingLot_Better
             { ParkingType.Scooter, 4 }
         };
 
+
         public static Dictionary<Guid, Space> vehicleSpaceMapper = new Dictionary<Guid, Space>();
 
         static void Main(string[] args)
